@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9FFD61FB-ED9B-45CB-8399-0E15ADC0694F}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ComputerBooksRecommended</RootNamespace>
+    <AssemblyName>ComputerBooksRecommended</AssemblyName>
+    <DefaultLanguage>zh-CN</DefaultLanguage>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>ComputerBooksRecommended_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxPackageDir>D:\Yang\local\</AppxPackageDir>
+    <PackageCertificateThumbprint>8C716E4BF0C320CB70808C1ADB58DAEB276536EC</PackageCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GroupedItemsPage.xaml.cs">
+      <DependentUpon>GroupedItemsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GroupDetailPage.xaml.cs">
+      <DependentUpon>GroupDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ItemDetailPage.xaml.cs">
+      <DependentUpon>ItemDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DataModel\SampleDataSource.cs" />
+    <Compile Include="Common\BindableBase.cs" />
+    <Compile Include="Common\BooleanToVisibilityConverter.cs" />
+    <Compile Include="Common\BooleanNegationConverter.cs" />
+    <Compile Include="Common\LayoutAwarePage.cs" />
+    <Compile Include="Common\RichTextColumns.cs" />
+    <Compile Include="Common\SuspensionManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="Common\ReadMe.txt" />
+    <None Include="ComputerBooksRecommended_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\DarkGray.png" />
+    <Content Include="Assets\LightGray.png" />
+    <Content Include="Assets\Logo.png" />
+    <Content Include="Assets\MediumGray.png" />
+    <Content Include="Assets\SmallLogo.png" />
+    <Content Include="Assets\SplashScreen.png" />
+    <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Data\1_编程与互联网书籍推荐Top5\0-Index_互联网.jpg" />
+    <Content Include="Data\1_编程与互联网书籍推荐Top5\0-Index_互联网.txt" />
+    <Content Include="Data\1_编程与互联网书籍推荐Top5\1-计算机程序的构造和解释.jpg" />
+    <Content Include="Data\1_编程与互联网书籍推荐Top5\1-计算机程序的构造和解释.txt" />
+    <Content Include="Data\1_编程与互联网书籍推荐Top5\2-深入理解计算机系统.jpg" />
+    <Content Include="Data\1_编程与互联网书籍推荐Top5\2-深入理解计算机系统.txt" />
+    <Content Include="Data\1_编程与互联网书籍推荐Top5\3-代码大全（第2版）.jpg" />
+    <Content Include="Data\1_编程与互联网书籍推荐Top5\3-代码大全（第2版）.txt" />
+    <Content Include="Data\1_编程与互联网书籍推荐Top5\4-编程珠玑.jpg" />
+    <Content Include="Data\1_编程与互联网书籍推荐Top5\4-编程珠玑.txt" />
+    <Content Include="Data\1_编程与互联网书籍推荐Top5\5-浪潮之巅.jpg" />
+    <Content Include="Data\1_编程与互联网书籍推荐Top5\5-浪潮之巅.txt" />
+    <Content Include="Data\2_前端书籍推荐Top3\0-Index_前端.jpg" />
+    <Content Include="Data\2_前端书籍推荐Top3\0-Index_前端.txt" />
+    <Content Include="Data\2_前端书籍推荐Top3\1-Web开发秘方.jpg" />
+    <Content Include="Data\2_前端书籍推荐Top3\1-Web开发秘方.txt" />
+    <Content Include="Data\2_前端书籍推荐Top3\2-JavaScript语言精粹.jpg" />
+    <Content Include="Data\2_前端书籍推荐Top3\2-JavaScript语言精粹.txt" />
+    <Content Include="Data\2_前端书籍推荐Top3\3-锋利的Jquery.jpg" />
+    <Content Include="Data\2_前端书籍推荐Top3\3-锋利的Jquery.txt" />
+    <Content Include="Data\3_数据库书籍推荐Top5\0-Index_db.jpg" />
+    <Content Include="Data\3_数据库书籍推荐Top5\0-Index_db.txt" />
+    <Content Include="Data\3_数据库书籍推荐Top5\1-数据库系统概念.jpg" />
+    <Content Include="Data\3_数据库书籍推荐Top5\1-数据库系统概念.txt" />
+    <Content Include="Data\3_数据库书籍推荐Top5\2-SQL反模式.jpg" />
+    <Content Include="Data\3_数据库书籍推荐Top5\2-SQL反模式.txt" />
+    <Content Include="Data\3_数据库书籍推荐Top5\3-高性能MySQL.jpg" />
+    <Content Include="Data\3_数据库书籍推荐Top5\3-高性能MySQL.txt" />
+    <Content Include="Data\3_数据库书籍推荐Top5\4-事务处理 概念与技术.jpg" />
+    <Content Include="Data\3_数据库书籍推荐Top5\4-事务处理 概念与技术.txt" />
+    <Content Include="Data\3_数据库书籍推荐Top5\5-SQL语言艺术.jpg" />
+    <Content Include="Data\3_数据库书籍推荐Top5\5-SQL语言艺术.txt" />
+    <Content Include="Data\4_Java书籍推荐Top10\0-Index_java.jpg" />
+    <Content Include="Data\4_Java书籍推荐Top10\0-Index_java.txt" />
+    <Content Include="Data\4_Java书籍推荐Top10\1-Java核心技术卷2.jpg" />
+    <Content Include="Data\4_Java书籍推荐Top10\1-Java核心技术卷2.txt" />
+    <Content Include="Data\4_Java书籍推荐Top10\10-Java程序员修炼之道.jpg" />
+    <Content Include="Data\4_Java书籍推荐Top10\10-Java程序员修炼之道.txt" />
+    <Content Include="Data\4_Java书籍推荐Top10\2-Thinking in java%284nd Edition%29.jpg" />
+    <Content Include="Data\4_Java书籍推荐Top10\2-Thinking in java%284nd Edition%29.txt" />
+    <Content Include="Data\4_Java书籍推荐Top10\3- Effective Java%282nd Edition%29.jpg" />
+    <Content Include="Data\4_Java书籍推荐Top10\3- Effective Java%282nd Edition%29.txt" />
+    <Content Include="Data\4_Java书籍推荐Top10\4-Java Concurrency in Practice.jpg" />
+    <Content Include="Data\4_Java书籍推荐Top10\4-Java Concurrency in Practice.txt" />
+    <Content Include="Data\4_Java书籍推荐Top10\5-Java Puzzles.jpg" />
+    <Content Include="Data\4_Java书籍推荐Top10\5-Java Puzzles.txt" />
+    <Content Include="Data\4_Java书籍推荐Top10\6-AgileJava,CraftingCodewithTest-DrivenDevelopment.jpg" />
+    <Content Include="Data\4_Java书籍推荐Top10\6-AgileJava,CraftingCodewithTest-DrivenDevelopment.txt" />
+    <Content Include="Data\4_Java书籍推荐Top10\7- Spring In Action%283rd Edition%29.jpg" />
+    <Content Include="Data\4_Java书籍推荐Top10\7- Spring In Action%283rd Edition%29.txt" />
+    <Content Include="Data\4_Java书籍推荐Top10\8-深入理解Java虚拟机%28第2版%29.jpg" />
+    <Content Include="Data\4_Java书籍推荐Top10\8-深入理解Java虚拟机%28第2版%29.txt" />
+    <Content Include="Data\4_Java书籍推荐Top10\9-Head First Java.jpg" />
+    <Content Include="Data\4_Java书籍推荐Top10\9-Head First Java.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Common\StandardStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="GroupedItemsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="GroupDetailPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ItemDetailPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0' ">
+    <VisualStudioVersion>11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

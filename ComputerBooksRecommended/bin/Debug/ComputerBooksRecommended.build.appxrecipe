@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LIKE-PC</Machine>
+    <WindowsUser>like</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\bin\Debug\ComputerBooksRecommended.exe">
+      <PackagePath>ComputerBooksRecommended.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\bin\Debug\ComputerBooksRecommended.pdb">
+      <PackagePath>ComputerBooksRecommended.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\1_编程与互联网书籍推荐Top5\0-Index_互联网.jpg">
+      <PackagePath>Data\1_编程与互联网书籍推荐Top5\0-Index_互联网.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\1_编程与互联网书籍推荐Top5\1-计算机程序的构造和解释.jpg">
+      <PackagePath>Data\1_编程与互联网书籍推荐Top5\1-计算机程序的构造和解释.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\1_编程与互联网书籍推荐Top5\2-深入理解计算机系统.jpg">
+      <PackagePath>Data\1_编程与互联网书籍推荐Top5\2-深入理解计算机系统.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\1_编程与互联网书籍推荐Top5\3-代码大全（第2版）.jpg">
+      <PackagePath>Data\1_编程与互联网书籍推荐Top5\3-代码大全（第2版）.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\1_编程与互联网书籍推荐Top5\4-编程珠玑.jpg">
+      <PackagePath>Data\1_编程与互联网书籍推荐Top5\4-编程珠玑.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\1_编程与互联网书籍推荐Top5\5-浪潮之巅.jpg">
+      <PackagePath>Data\1_编程与互联网书籍推荐Top5\5-浪潮之巅.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\2_前端书籍推荐Top3\0-Index_前端.jpg">
+      <PackagePath>Data\2_前端书籍推荐Top3\0-Index_前端.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\2_前端书籍推荐Top3\1-Web开发秘方.jpg">
+      <PackagePath>Data\2_前端书籍推荐Top3\1-Web开发秘方.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\2_前端书籍推荐Top3\2-JavaScript语言精粹.jpg">
+      <PackagePath>Data\2_前端书籍推荐Top3\2-JavaScript语言精粹.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\2_前端书籍推荐Top3\3-锋利的Jquery.jpg">
+      <PackagePath>Data\2_前端书籍推荐Top3\3-锋利的Jquery.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\3_数据库书籍推荐Top5\0-Index_db.jpg">
+      <PackagePath>Data\3_数据库书籍推荐Top5\0-Index_db.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\3_数据库书籍推荐Top5\1-数据库系统概念.jpg">
+      <PackagePath>Data\3_数据库书籍推荐Top5\1-数据库系统概念.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\3_数据库书籍推荐Top5\2-SQL反模式.jpg">
+      <PackagePath>Data\3_数据库书籍推荐Top5\2-SQL反模式.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\3_数据库书籍推荐Top5\3-高性能MySQL.jpg">
+      <PackagePath>Data\3_数据库书籍推荐Top5\3-高性能MySQL.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\3_数据库书籍推荐Top5\4-事务处理 概念与技术.jpg">
+      <PackagePath>Data\3_数据库书籍推荐Top5\4-事务处理 概念与技术.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\3_数据库书籍推荐Top5\5-SQL语言艺术.jpg">
+      <PackagePath>Data\3_数据库书籍推荐Top5\5-SQL语言艺术.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\4_Java书籍推荐Top10\0-Index_java.jpg">
+      <PackagePath>Data\4_Java书籍推荐Top10\0-Index_java.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\4_Java书籍推荐Top10\1-Java核心技术卷2.jpg">
+      <PackagePath>Data\4_Java书籍推荐Top10\1-Java核心技术卷2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\4_Java书籍推荐Top10\10-Java程序员修炼之道.jpg">
+      <PackagePath>Data\4_Java书籍推荐Top10\10-Java程序员修炼之道.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\4_Java书籍推荐Top10\2-Thinking in java%284nd Edition%29.jpg">
+      <PackagePath>Data\4_Java书籍推荐Top10\2-Thinking in java%284nd Edition%29.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\4_Java书籍推荐Top10\3- Effective Java%282nd Edition%29.jpg">
+      <PackagePath>Data\4_Java书籍推荐Top10\3- Effective Java%282nd Edition%29.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\4_Java书籍推荐Top10\4-Java Concurrency in Practice.jpg">
+      <PackagePath>Data\4_Java书籍推荐Top10\4-Java Concurrency in Practice.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\4_Java书籍推荐Top10\5-Java Puzzles.jpg">
+      <PackagePath>Data\4_Java书籍推荐Top10\5-Java Puzzles.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\4_Java书籍推荐Top10\6-AgileJava,CraftingCodewithTest-DrivenDevelopment.jpg">
+      <PackagePath>Data\4_Java书籍推荐Top10\6-AgileJava,CraftingCodewithTest-DrivenDevelopment.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\4_Java书籍推荐Top10\7- Spring In Action%283rd Edition%29.jpg">
+      <PackagePath>Data\4_Java书籍推荐Top10\7- Spring In Action%283rd Edition%29.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\4_Java书籍推荐Top10\8-深入理解Java虚拟机%28第2版%29.jpg">
+      <PackagePath>Data\4_Java书籍推荐Top10\8-深入理解Java虚拟机%28第2版%29.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\4_Java书籍推荐Top10\9-Head First Java.jpg">
+      <PackagePath>Data\4_Java书籍推荐Top10\9-Head First Java.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\1_编程与互联网书籍推荐Top5\0-Index_互联网.txt">
+      <PackagePath>Data\1_编程与互联网书籍推荐Top5\0-Index_互联网.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\1_编程与互联网书籍推荐Top5\1-计算机程序的构造和解释.txt">
+      <PackagePath>Data\1_编程与互联网书籍推荐Top5\1-计算机程序的构造和解释.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\1_编程与互联网书籍推荐Top5\2-深入理解计算机系统.txt">
+      <PackagePath>Data\1_编程与互联网书籍推荐Top5\2-深入理解计算机系统.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\1_编程与互联网书籍推荐Top5\3-代码大全（第2版）.txt">
+      <PackagePath>Data\1_编程与互联网书籍推荐Top5\3-代码大全（第2版）.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\1_编程与互联网书籍推荐Top5\4-编程珠玑.txt">
+      <PackagePath>Data\1_编程与互联网书籍推荐Top5\4-编程珠玑.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\1_编程与互联网书籍推荐Top5\5-浪潮之巅.txt">
+      <PackagePath>Data\1_编程与互联网书籍推荐Top5\5-浪潮之巅.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\2_前端书籍推荐Top3\0-Index_前端.txt">
+      <PackagePath>Data\2_前端书籍推荐Top3\0-Index_前端.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\2_前端书籍推荐Top3\1-Web开发秘方.txt">
+      <PackagePath>Data\2_前端书籍推荐Top3\1-Web开发秘方.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\2_前端书籍推荐Top3\2-JavaScript语言精粹.txt">
+      <PackagePath>Data\2_前端书籍推荐Top3\2-JavaScript语言精粹.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\2_前端书籍推荐Top3\3-锋利的Jquery.txt">
+      <PackagePath>Data\2_前端书籍推荐Top3\3-锋利的Jquery.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\3_数据库书籍推荐Top5\0-Index_db.txt">
+      <PackagePath>Data\3_数据库书籍推荐Top5\0-Index_db.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\3_数据库书籍推荐Top5\1-数据库系统概念.txt">
+      <PackagePath>Data\3_数据库书籍推荐Top5\1-数据库系统概念.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\3_数据库书籍推荐Top5\2-SQL反模式.txt">
+      <PackagePath>Data\3_数据库书籍推荐Top5\2-SQL反模式.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\3_数据库书籍推荐Top5\3-高性能MySQL.txt">
+      <PackagePath>Data\3_数据库书籍推荐Top5\3-高性能MySQL.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\3_数据库书籍推荐Top5\4-事务处理 概念与技术.txt">
+      <PackagePath>Data\3_数据库书籍推荐Top5\4-事务处理 概念与技术.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\3_数据库书籍推荐Top5\5-SQL语言艺术.txt">
+      <PackagePath>Data\3_数据库书籍推荐Top5\5-SQL语言艺术.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\4_Java书籍推荐Top10\0-Index_java.txt">
+      <PackagePath>Data\4_Java书籍推荐Top10\0-Index_java.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\4_Java书籍推荐Top10\1-Java核心技术卷2.txt">
+      <PackagePath>Data\4_Java书籍推荐Top10\1-Java核心技术卷2.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\4_Java书籍推荐Top10\10-Java程序员修炼之道.txt">
+      <PackagePath>Data\4_Java书籍推荐Top10\10-Java程序员修炼之道.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\4_Java书籍推荐Top10\2-Thinking in java%284nd Edition%29.txt">
+      <PackagePath>Data\4_Java书籍推荐Top10\2-Thinking in java%284nd Edition%29.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\4_Java书籍推荐Top10\3- Effective Java%282nd Edition%29.txt">
+      <PackagePath>Data\4_Java书籍推荐Top10\3- Effective Java%282nd Edition%29.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\4_Java书籍推荐Top10\4-Java Concurrency in Practice.txt">
+      <PackagePath>Data\4_Java书籍推荐Top10\4-Java Concurrency in Practice.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\4_Java书籍推荐Top10\5-Java Puzzles.txt">
+      <PackagePath>Data\4_Java书籍推荐Top10\5-Java Puzzles.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\4_Java书籍推荐Top10\6-AgileJava,CraftingCodewithTest-DrivenDevelopment.txt">
+      <PackagePath>Data\4_Java书籍推荐Top10\6-AgileJava,CraftingCodewithTest-DrivenDevelopment.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\4_Java书籍推荐Top10\7- Spring In Action%283rd Edition%29.txt">
+      <PackagePath>Data\4_Java书籍推荐Top10\7- Spring In Action%283rd Edition%29.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\4_Java书籍推荐Top10\8-深入理解Java虚拟机%28第2版%29.txt">
+      <PackagePath>Data\4_Java书籍推荐Top10\8-深入理解Java虚拟机%28第2版%29.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\Data\4_Java书籍推荐Top10\9-Head First Java.txt">
+      <PackagePath>Data\4_Java书籍推荐Top10\9-Head First Java.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\bin\Debug\GroupedItemsPage.xaml">
+      <PackagePath>GroupedItemsPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\bin\Debug\GroupDetailPage.xaml">
+      <PackagePath>GroupDetailPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\bin\Debug\ItemDetailPage.xaml">
+      <PackagePath>ItemDetailPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Yang\WorkSpace\ComputerBooksRecommended\ComputerBooksRecommended\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

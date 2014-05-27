@@ -1,0 +1,32 @@
+【推荐理由】：
+	《Spring实战(第3版)》编辑推荐：In Action系列中最畅销的Spring图书，有近10万读者选择《Spring实战(第3版)》来学习Spring，也是国内读者最熟悉的Spring经典图书之一！Spring框架已经成为Java开发人员的必备知识，而且Spring 3引入了强大的新特性，例如SpEL、Spring表达式语言、IoC容器的新注解以及用户急需的对REST的支持。无论你是刚刚接触Spring还是被Spring 3.0的新特性所吸引，《Spring实战(第3版)》都是掌握Spring的最佳选择。
+	《Spring实战(第3版)》继承了前两个畅销版本面向实战、实用的写作风格，介绍了Spring 3.0最重要的几个方面，包括REST、远程服务、消息、安全、MVC、Web Flow等。作者Craig Walls将读者真正需要的技术通过丰富且非常有趣的示例予以呈现，精彩纷呈，一定让你大呼过瘾。
+【作者简介】：
+	作者：（美国）Craig Walls 译者：耿渊 张卫滨
+	Craig Walls，SpringSource的软件开发人员。他也是一位畅销书作者，经常在用户组和各种会议中进行演讲。他目前居住在美国德克萨斯州的普莱诺。
+【书籍介绍】：
+	《Spring实战(第3版)》从核心的Spring、Spring应用程序的核心组件、Spring集成3个方面，由浅入深、由易到难地对Spring展开了系统的讲解，包括Spring之旅、装配Bean、最小化Spring XML配置、面向切面的Spring、征服数据库、事务管理、使用Spring MVC构建Web应用程序、使用Spring Web Flow、保护Spring应用、使用远程服务、为Spring添加REST功能、Spring消息、使用JMX管理Spring Bean以及其他Spring技巧等内容。《Spring实战(第3版)》不仅仅介绍了使用Spring框架进行开发必须掌握的核心概念，还在此基础上深入介绍了Spring应用程序的常用组件，并为读者展现了Spring如何与其他的应用、服务进行企业级集成。《Spring实战(第3版)》并不没有为读者详细地列出SpringAPI，而是通过提供丰富又实用的代码示例，来真正展示Spring框架的强大──它能够使企业级应用程序的开发更简单。
+	第一部分Spring的核心 
+	第1章Spring之旅2 
+	第2章装配Bean29 
+	第3章最小化Spring XML配置63 
+	第4章面向切面的Spring84 
+
+	第二部分Spring应用程序的核心组件 
+	第5章征服数据库112 
+	第6章事务管理144 
+	第7章使用Spring MVC构建Web应用程序162 
+	第8章使用Spring Web Flow197 
+	第9章保护Spring应用223 
+
+	第三部分Spring集成 
+	第10章使用远程服务254 
+	第11章为Spring添加REST功能277 
+	第12章Spring消息310 
+	第13章使用JMX管理SpringBean333 
+	第14章其他Spring技巧350 
+
+【读书体会】：
+	Spring in Action》是一本关于Spring的最基本介绍的书。这本书的定位就相当于是关于Spring的新华字典，只有一些基本概念的介绍和示例，涵盖了Spring的各个方面，但都不够深入。就像作者在最后一页写的那样：“学习Spring，这才刚刚开始”。 
+　　Can't agree more. Spring的博大精深，单单这么一本书是肯定不够的，但这本书却是最好的一本入门书，告诉你Spring能做什么，你只需要在XML里面配置个什么或者@一个什么就能作什么了。全书主要就是围绕这句话展开，但正如我这篇评论一样，这是一本关于Spring的《新华字典》，但肯定不是《现代汉语词典》，它所能提供的，就是告诉你最基础的东西，同时保证你拿起它时，能找到你所需要的东西。 
+　　作为一本入门级的技术书籍，这就已经足够。 

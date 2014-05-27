@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:build="http://schemas.microsoft.com/developer/appx/2012/build" IgnorableNamespaces="build">
+  <!--
+    此包清单文件由生成过程生成。
+
+    如果重新生成此文件，将丢失对其所做的更改。若要更正此文件中的错误，请编辑源 .appxmanifest 文件。
+
+    有关程序包清单文件的详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkID=241727
+  -->
+  <Identity Name="36408mikiyonneyoutlook.co.34461FDAF5D9" Publisher="CN=85DFDFD5-DD7B-402F-AC51-3F8A31644B4A" Version="1.0.0.1" ProcessorArchitecture="neutral" />
+  <Properties>
+    <DisplayName>计算机经典书籍推荐榜</DisplayName>
+    <PublisherDisplayName>mikiyonney@outlook.com</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="ZH-CN" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="ComputerBooksRecommended.exe" EntryPoint="ComputerBooksRecommended.App">
+      <VisualElements DisplayName="计算机经典书籍" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="推荐计算机的经典图书，包含前端、数据库、互联网相关以及Java方面的经典书籍推荐。" ForegroundText="light" BackgroundColor="#278df6">
+        <DefaultTile ShowName="allLogos" ShortName="计算机经典书籍推荐榜" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <build:Metadata>
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v4.5" />
+    <build:Item Name="VisualStudio" Version="11.0" />
+    <build:Item Name="OperatingSystem" Version="6.2.9200.16384 (win8_rtm.120725-1247)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="11.0.50727.1" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="11.0.50727.1" />
+    <build:Item Name="MakePri.exe" Version="6.2.9200.16384 (win8_rtm.120725-1247)" />
+  </build:Metadata>
+</Package>
